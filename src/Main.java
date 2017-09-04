@@ -18,7 +18,7 @@ public class Main
     {
         try
         {
-            sound = new URL("file:/Users/VicMini/git/PlaySoundCheatSheet/src/bell.aiff") ;
+            sound = new URL("file:src/bell.aiff") ;
             noise = JApplet.newAudioClip(sound);
             noise.play();
         } catch (MalformedURLException e)
